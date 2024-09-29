@@ -55,10 +55,10 @@ var _a;
 
     <H1 style="text-align: left;"> STATIC RESUME BY  <br>
         WASEEM AHMED</H1>
-    <div  id ="Resume">
+       <div  id ="Resume">
 
 
-       <div id = "profilePicture"> ${profilePictureURL ? `<img src="${profilePictureURL}" alt = "profliePicture" class ="profilePicture">` : ''}</div> 
+       <div id = "profilePicture"> ${profilePictureURL ? `<img src="${profilePictureURL}" alt = "profliePicture" class ="profilePicture">` : ''} </div> 
 
 
         <div id="personal information">
@@ -78,48 +78,40 @@ var _a;
         </ul>
         </div>
         <br>
-
-        <div id="education">
+         <div id="education">
+       
             <h2>EDUCATION</h2>
             <ul style=" font-weight: bold;">
 
-            <li>${education1} </li> 
-            <li>${education2} </li> 
-            <li>${education3} </li> 
-            
-           
-
-
-              </ul>
+            <li>Degree :${education1} </li> 
+            <li> Institute : ${education2} </li> 
+            <li>Grade : ${education3} </li> 
+        </ul>
         </div>
 
         <div id="experience">
             <h2>EXPERIENCE</h2>
             <ul style=" font-weight: bold;">
-                <li>${experience1}</li>
-                <li>${experience2}</li>
-                <li>${experience3}</li>
+                <li> Company Name :${experience1}</li>
+                <li>Position : ${experience2}</li>
+                <li>Duration : ${experience3}</li>
             </ul>
 
              
         </div>
 
-
-     
        <div id="skills">
-    <h2>SKILLS:</h2>
-    
-    <ul style=" font-weight: bold;">
-    <li>${skill1} </li> 
-    <li>${skill2} </li> 
-    <li>${skill3} </li> 
+            <h2>SKILLS:</h2>
 
-      
-    </ul>
-</div>
+          <ul style=" font-weight: bold;">
+          <li>${skill1} </li> 
+          <li>${skill2} </li> 
+          <li>${skill3} </li> 
+          </ul>
+        </div>
 
 
- </div>
+
    
 
 
